@@ -37,6 +37,8 @@ extracted_tables.json
 extracted_tables.txt
 ocr_results.txt
 full_page_ocr.txt
+qatar_test_doc.pdf
+extracted_text.txt
 
 # =========================
 # Logs (optional)
