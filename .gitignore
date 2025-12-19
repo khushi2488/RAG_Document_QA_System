@@ -1,0 +1,44 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+venv/
+.venv/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Local generated data (DO NOT COMMIT)
+# =========================
+extracted_images/
+page_images/
+processed_content/
+faiss_index/
+faiss_index_enhanced/
+
+extracted_tables.json
+extracted_tables.txt
+ocr_results.txt
+full_page_ocr.txt
+
+# =========================
+# Logs (optional)
+# =========================
+*.log

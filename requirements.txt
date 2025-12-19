@@ -1,0 +1,9 @@
+langchain
+langchain-community
+openai
+chromadb
+streamlit
+pypdf
+pytesseract
+pillow
+pandas
