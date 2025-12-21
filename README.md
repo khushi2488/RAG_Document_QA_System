@@ -90,10 +90,8 @@ User Question → Semantic Search → LLM Processing →
 Answer with Citations
 ```
 
-## 📸 Screenshots
 <img width="1896" height="880" alt="image" src="https://github.com/user-attachments/assets/16cd98ef-e5dc-4d2c-8529-1e1e3d88164d" />
 
-<img width="1919" height="955" alt="image" src="https://github.com/user-attachments/assets/5b3724d1-1579-465c-afac-8bf568c1b03b" />
 
 
 ## 🚧 Current Limitations
