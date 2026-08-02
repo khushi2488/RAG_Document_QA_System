@@ -1,0 +1,13 @@
+pdf_name,parser,status,processing_time_sec,page_count,char_count,word_count,output_file_size_bytes,error_message
+bus_charging_schedule_report.pdf,pymupdf,success,0.1549,42,35637,7921,42252,
+bus_charging_schedule_report.pdf,pdfplumber,success,6.4909,42,35475,7921,36972,
+bus_charging_schedule_report.pdf,unstructured,success,52.1628,42,40467,6711,53217,
+bus_charging_schedule_report.pdf,docling,success,359.4563,42,91877,14400,93163,
+CV_Khushi_Patel.pdf,pymupdf,success,0.0325,1,3414,373,3525,
+CV_Khushi_Patel.pdf,pdfplumber,success,0.7484,1,2832,370,2909,
+CV_Khushi_Patel.pdf,unstructured,success,1.1387,1,2842,363,2910,
+CV_Khushi_Patel.pdf,docling,success,1.5343,1,3281,383,3355,
+qatar_test_doc.pdf,pymupdf,success,1.2131,78,201843,29691,210899,
+qatar_test_doc.pdf,pdfplumber,success,29.6415,78,198274,29666,202649,
+qatar_test_doc.pdf,unstructured,success,0.0743,0,0,0,0,
+qatar_test_doc.pdf,docling,success,87.9638,78,268643,30027,270723,

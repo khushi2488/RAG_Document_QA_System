@@ -7,3 +7,25 @@ pypdf
 pytesseract
 pillow
 pandas
+
+# PyMuPDF -- fast, C-based PDF text extraction (import name: fitz)
+PyMuPDF>=1.24.0
+
+# pdfplumber -- pdfminer.six-based extraction with layout awareness
+pdfplumber>=0.11.0
+
+# Unstructured -- element-based partitioning (Title/NarrativeText/Table/...)
+# The [pdf] extra pulls in pdfminer.six, pikepdf, pypdf, pdf2image, etc.
+# The default strategy used by this project ("fast") needs no extra system
+# packages. Switching to strategy="hi_res" or "ocr_only" in
+# parsers/unstructured_parser.py additionally requires the system packages
+# poppler-utils and tesseract-ocr (e.g. `apt install poppler-utils
+# tesseract-ocr` on Debian/Ubuntu, `brew install poppler tesseract` on macOS).
+unstructured[pdf]>=0.15.0
+
+# Docling -- full document-understanding pipeline (layout + table-structure
+# models), exports structured Markdown. Installs torch as a transitive
+# dependency and downloads model weights from Hugging Face on first run,
+# so make sure you have network access and a few GB of free disk space
+# the first time compare_parsers.py runs.
+docling>=2.0.0

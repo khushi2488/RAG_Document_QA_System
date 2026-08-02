@@ -44,3 +44,9 @@ extracted_text.txt
 # Logs (optional)
 # =========================
 *.log
+
+
+Dataset/
+outputs/
+parsers/
+qdrant_db/
